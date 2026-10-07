@@ -319,6 +319,11 @@ summary:focus-visible {
   width: 100%;
   max-width: 100%;
   border: 0;
+  border-radius: 8px;
+}
+
+#ghl-form iframe {
+  height: 465px;
 }
 
 .closing {

@@ -253,15 +253,24 @@ export default function SheetPage() {
       ) : null}
 
       <div id="ghl-form">
-        {/*
-          Pegá acá el iframe del formulario de GoHighLevel.
-          Pide nombre, mail y tres sí/no. No armes el formulario en esta página.
-          Si el embed trae un <script>, pegalo en index.html justo antes de </body>.
-          GoHighLevel lee la URL de esta página. Parámetros:
-          hourly, h1, h2, h3, h4, h5, total, qualify=form
-          h1 es la fila de ejemplo. h2 a h5 son las cuatro filas vacías, de arriba hacia abajo.
-          qualify=form significa que las tres condiciones se leen del formulario.
-        */}
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/9v3D1Wo4L04QGTFrVy0N"
+          id="inline-9v3D1Wo4L04QGTFrVy0N"
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="Sofia Rodriguez - Qualifier form"
+          data-height="465"
+          data-layout-iframe-id="inline-9v3D1Wo4L04QGTFrVy0N"
+          data-form-id="9v3D1Wo4L04QGTFrVy0N"
+          data-cookie-consent="true"
+          data-cookie-consent-provider="auto"
+          title="Sofia Rodriguez - Qualifier form"
+        />
       </div>
 
       <p className="closing">
