@@ -3,6 +3,7 @@ import BookCallPage from "./BookCallPage.jsx";
 import CallBookedPage from "./CallBookedPage.jsx";
 import PrivacyPage from "./PrivacyPage.jsx";
 import SheetPage from "./SheetPage.jsx";
+import SopPage from "./SopPage.jsx";
 import SiteFooter from "./SiteFooter.jsx";
 import TermsPage from "./TermsPage.jsx";
 import ThankYouPage from "./ThankYouPage.jsx";
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/call-booked" element={<CallBookedPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/sop" element={<SopPage />} />
       </Routes>
       <SiteFooter />
     </BrowserRouter>
