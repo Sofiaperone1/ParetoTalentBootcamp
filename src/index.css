@@ -326,6 +326,11 @@ summary:focus-visible {
   height: 465px;
 }
 
+#ghl-calendar iframe {
+  height: 800px;
+  overflow: hidden;
+}
+
 .closing {
   margin-top: 2rem;
 }

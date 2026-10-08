@@ -18,7 +18,13 @@ export default function BookCallPage() {
     <main className="page">
       <h1>{title}</h1>
       <div id="ghl-calendar">
-        {/* Pegá acá el iframe del calendario de GoHighLevel. */}
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/booking/NGhLi84xE0MU1TcXjF9x"
+          allow="payment"
+          scrolling="no"
+          id="NGhLi84xE0MU1TcXjF9x_1791420542754"
+          title="Book a call"
+        />
       </div>
     </main>
   );
